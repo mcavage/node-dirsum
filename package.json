@@ -1,0 +1,20 @@
+{
+  "name": "dirsum",
+  "description": "A small library that computes checksums of directory trees",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mcavage/node-dirsum.git"
+  },
+  "author": "Mark Cavage <mcavage@gmail.com> (http://www.joyent.com)",
+  "main": "lib/dirsum.js",
+  "scripts": {
+    "test": "jshint lib tst/dirsum.test.js && node tst/dirsum.test.js"
+  },
+  "devDependencies": {
+    "jshint": ">=0.1.9"
+  },
+  "engines": {
+    "node": ">=0.4"
+  }
+}
