@@ -1,7 +1,7 @@
 {
   "name": "dirsum",
   "description": "A small library that computes checksums of directory trees",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/mcavage/node-dirsum.git"
